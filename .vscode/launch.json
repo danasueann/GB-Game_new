@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //launch.json um zu kompilieren und dann den Emulator
+            //und Debugger über einen Shortcut zu starten 
+			"version": "0.2.0",
+            "type": "emulicious-debugger",
+            "request": "launch",
+            "name": "Launch in Emulicious",
+            "emuliciousPath": "${workspaceFolder}/emulicious/emulicious.exe",
+            "program": "${workspaceFolder}/build/game.gb",
+            "port": 58870,
+            "stopOnEntry": false,
+            //führt Bat-Datei aus, um zu kompilieren bevor der Emulicious gestartet wird
+            "preLaunchTask": "run make.bat"
+        }
+    ]
+}
