@@ -35,6 +35,8 @@ UBYTE choose_pet(void)
             return 1; // JESTER selected
         }
         wait_vbl_done();
+
+        
     }
 }
 

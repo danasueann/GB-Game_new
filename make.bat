@@ -10,6 +10,9 @@ c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\background_cat.o
 c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\background_dog.o backgrounds\background_dog.c
 c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\SelectMenu_tileset.o backgrounds\SelectMenu_tileset.c
 c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\cat.o sprites\cat.c
+c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\cat_animated_2.o sprites\cat_animated_2.c
+c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\cat_animated.o sprites\cat_animated.c
+c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\cat_animated_.o cat_animated_.c
 c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\jester_sprite.o sprites\jester_sprite.c
 c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\jester.o jester.c
 c:\gbdk\bin\lcc -Wa-l -Wl-m -Wl-j -DUSE_SFR_FOR_REG -c -o build\keyboarddata.o keyboard\keyboarddata.c
@@ -24,6 +27,9 @@ c:\gbdk\bin\lcc -Wl-yt0x1A -Wl-yo4 -Wl-ya4 -Wa-l -Wl-m -Wl-j  -DUSE_SFR_FOR_REG 
     build\background_dog.o ^
     build\SelectMenu_tileset.o ^
     build\cat.o ^
+    build\cat_animated.o ^
+    build\cat_animated_2.o ^
+    build\cat_animated_.o ^
     build\jester_sprite.o ^
     build\jester.o ^
     build\cursor.o ^

@@ -1,15 +1,11 @@
-// GENERATED USING ASEPRITE GB EXPORTER BY GABRIEL REIS// 
- 
- 
-#define SelectMenu_tilemap_width 20
-#define SelectMenu_tilemap_height 18
+// Generated using GB Export by AngelSix https://github.com/angelsix/retrosix-resources
+// Enhanced version based of original by https://github.com/gabrielcnr
 
-#define SelectMenu_tileset_size 189
+#define SelectMenu_tileset_tilemap_width 0
+#define SelectMenu_tileset_tilemap_height 0
 
+#define SelectMenu_tileset_tileset_size 191
 
-extern const unsigned char SelectMenu_tileset[]; 
+extern const unsigned char SelectMenu_tileset_tileset[]; 
 
-
- 
- 
-extern const unsigned char SelectMenu_tilemap[];
+extern const unsigned char SelectMenu_tileset_tilemap[];
